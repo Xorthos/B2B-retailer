@@ -1,0 +1,8 @@
+C:\Users\madsd\source\repos\Messages\Messages\bin\Debug\netcoreapp2.0\Messages.deps.json
+C:\Users\madsd\source\repos\Messages\Messages\bin\Debug\netcoreapp2.0\Messages.dll
+C:\Users\madsd\source\repos\Messages\Messages\bin\Debug\netcoreapp2.0\Messages.pdb
+C:\Users\madsd\source\repos\Messages\Messages\obj\Debug\netcoreapp2.0\Messages.csproj.CoreCompileInputs.cache
+C:\Users\madsd\source\repos\Messages\Messages\obj\Debug\netcoreapp2.0\Messages.AssemblyInfoInputs.cache
+C:\Users\madsd\source\repos\Messages\Messages\obj\Debug\netcoreapp2.0\Messages.AssemblyInfo.cs
+C:\Users\madsd\source\repos\Messages\Messages\obj\Debug\netcoreapp2.0\Messages.dll
+C:\Users\madsd\source\repos\Messages\Messages\obj\Debug\netcoreapp2.0\Messages.pdb
