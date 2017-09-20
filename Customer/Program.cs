@@ -1,24 +1,37 @@
-﻿using System;
+﻿using BE;
+using EasyNetQ;
+using System;
+using System.Collections.Generic;
 
 namespace Customer
 {
     class Program
     {
+
+        static List<Guid> queues = new List<Guid>();
+
         static void Main(string[] args)
         {
-            using (var bus = RabbitHutch.CreateBus("host=localhost"))
+            using (var bus = RabbitHutch.CreateBus("host=localhost;persistentMessages=false"))
             {
-                OrderDTO orderDTO = new OrderDTO();
+                while (true)
+                {
+                    OrderDTO orderDTO = new OrderDTO();
+                    orderDTO.order = new Order();
 
-                Console.WriteLine("Enter product id.");
-                orderDTO.order.ProdID = Console.ReadLine();
-                Console.WriteLine("Enter customer id.");
-                orderDTO.order.CustID = Console.ReadLine();
-                orderDTO.QueueToken = Guid.NewGuid();
-
-                bus.Send("ordering", orderDTO);
-
-                bus.Receive<CustomerResponse>(orderDTO.QueueToken.ToString(), message => Console.WriteLine("Available: {0}, DeliveryTime: {1}, ShippingPrice: {2}", message.Available, message.DeliveryTime, message.ShippingPrice));
+                    Console.WriteLine("Enter product id.");
+                    orderDTO.order.ProdID = Int32.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter customer id.");
+                    orderDTO.order.CustID = Console.ReadLine();
+                    Console.WriteLine("Enter customer country code.");
+                    orderDTO.order.country = Console.ReadLine();
+                    orderDTO.CustomerToken = Guid.NewGuid();
+                    //bus.Respond<OrderDTO, CustomerResponse>(request => { return new CustomerResponse() { ShippingPrice = 100, DeliveryTime = 20, Available = false }; });
+                    CustomerResponse response = bus.Request<OrderDTO, CustomerResponse>(orderDTO);
+                    Console.WriteLine("Available: {0}, DeliveryTime: {1}, ShippingPrice: {2}", response.Available, response.DeliveryTime, response.ShippingPrice);
+                        
+                    Console.ReadLine();
+                }
             }
         }
     }

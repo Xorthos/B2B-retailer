@@ -6,8 +6,8 @@ C:\Users\madsd\source\repos\Messages\Subscriber\obj\Debug\netcoreapp2.0\Subscrib
 C:\Users\madsd\source\repos\Messages\Subscriber\obj\Debug\netcoreapp2.0\Subscriber.AssemblyInfoInputs.cache
 C:\Users\madsd\source\repos\Messages\Subscriber\obj\Debug\netcoreapp2.0\Subscriber.AssemblyInfo.cs
 C:\Users\madsd\source\repos\Messages\Subscriber\bin\Debug\netcoreapp2.0\Subscriber.pdb
-C:\Users\madsd\source\repos\Messages\Subscriber\bin\Debug\netcoreapp2.0\Messages.dll
-C:\Users\madsd\source\repos\Messages\Subscriber\bin\Debug\netcoreapp2.0\Messages.pdb
 C:\Users\madsd\source\repos\Messages\Subscriber\obj\Debug\netcoreapp2.0\Subscriber.csprojResolveAssemblyReference.cache
 C:\Users\madsd\source\repos\Messages\Subscriber\obj\Debug\netcoreapp2.0\Subscriber.dll
 C:\Users\madsd\source\repos\Messages\Subscriber\obj\Debug\netcoreapp2.0\Subscriber.pdb
+C:\Users\madsd\source\repos\Messages\Subscriber\bin\Debug\netcoreapp2.0\BE.dll
+C:\Users\madsd\source\repos\Messages\Subscriber\bin\Debug\netcoreapp2.0\BE.pdb

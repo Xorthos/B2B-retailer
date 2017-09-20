@@ -6,13 +6,13 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Subscriber/1.0.0": {
+      "Server/1.0.0": {
         "dependencies": {
           "BE": "1.0.0",
           "EasyNetQ": "2.1.0"
         },
         "runtime": {
-          "Subscriber.dll": {}
+          "Server.dll": {}
         }
       },
       "EasyNetQ/2.1.0": {
@@ -934,7 +934,7 @@
     }
   },
   "libraries": {
-    "Subscriber/1.0.0": {
+    "Server/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

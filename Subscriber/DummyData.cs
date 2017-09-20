@@ -29,7 +29,7 @@ namespace Subscriber
                     new Product() { ProdID = 4, count = 2},
                     new Product() { ProdID = 5, count = 3}
                 },
-                Country = "Denmark"
+                Country = "DK"
             },
             new Warehouse(){ Products = new List<Product>
                 {
@@ -37,14 +37,14 @@ namespace Subscriber
                     new Product() { ProdID = 3, count = 1},
                     new Product() { ProdID = 4, count = 4}
                 },
-                Country = "England"
+                Country = "EN"
             },
             new Warehouse(){ Products = new List<Product>
                 {
                     new Product(){ ProdID = 1, count =  5},
                     new Product() { ProdID = 5, count = 7}
                 },
-                Country = "Iran"
+                Country = "IR"
             }
         };
 

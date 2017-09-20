@@ -1,0 +1,13 @@
+C:\Users\madsd\source\repos\Messages\Customer\bin\Debug\netcoreapp2.0\BE.dll
+C:\Users\madsd\source\repos\Messages\Customer\obj\Debug\netcoreapp2.0\Customer.csprojResolveAssemblyReference.cache
+C:\Users\madsd\source\repos\Messages\Customer\obj\Debug\netcoreapp2.0\Customer.csproj.CoreCompileInputs.cache
+C:\Users\madsd\source\repos\Messages\Customer\obj\Debug\netcoreapp2.0\Customer.AssemblyInfoInputs.cache
+C:\Users\madsd\source\repos\Messages\Customer\obj\Debug\netcoreapp2.0\Customer.AssemblyInfo.cs
+C:\Users\madsd\source\repos\Messages\Customer\bin\Debug\netcoreapp2.0\Customer.deps.json
+C:\Users\madsd\source\repos\Messages\Customer\bin\Debug\netcoreapp2.0\Customer.runtimeconfig.json
+C:\Users\madsd\source\repos\Messages\Customer\bin\Debug\netcoreapp2.0\Customer.runtimeconfig.dev.json
+C:\Users\madsd\source\repos\Messages\Customer\bin\Debug\netcoreapp2.0\Customer.dll
+C:\Users\madsd\source\repos\Messages\Customer\bin\Debug\netcoreapp2.0\Customer.pdb
+C:\Users\madsd\source\repos\Messages\Customer\bin\Debug\netcoreapp2.0\BE.pdb
+C:\Users\madsd\source\repos\Messages\Customer\obj\Debug\netcoreapp2.0\Customer.dll
+C:\Users\madsd\source\repos\Messages\Customer\obj\Debug\netcoreapp2.0\Customer.pdb

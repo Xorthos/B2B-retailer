@@ -1,0 +1,13 @@
+C:\Users\madsd\source\repos\Messages\Publisher\bin\Debug\netcoreapp2.0\Server.deps.json
+C:\Users\madsd\source\repos\Messages\Publisher\bin\Debug\netcoreapp2.0\Server.runtimeconfig.json
+C:\Users\madsd\source\repos\Messages\Publisher\bin\Debug\netcoreapp2.0\Server.runtimeconfig.dev.json
+C:\Users\madsd\source\repos\Messages\Publisher\bin\Debug\netcoreapp2.0\Server.dll
+C:\Users\madsd\source\repos\Messages\Publisher\bin\Debug\netcoreapp2.0\Server.pdb
+C:\Users\madsd\source\repos\Messages\Publisher\bin\Debug\netcoreapp2.0\BE.dll
+C:\Users\madsd\source\repos\Messages\Publisher\bin\Debug\netcoreapp2.0\BE.pdb
+C:\Users\madsd\source\repos\Messages\Publisher\obj\Debug\netcoreapp2.0\Server.csprojResolveAssemblyReference.cache
+C:\Users\madsd\source\repos\Messages\Publisher\obj\Debug\netcoreapp2.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\madsd\source\repos\Messages\Publisher\obj\Debug\netcoreapp2.0\Server.AssemblyInfoInputs.cache
+C:\Users\madsd\source\repos\Messages\Publisher\obj\Debug\netcoreapp2.0\Server.AssemblyInfo.cs
+C:\Users\madsd\source\repos\Messages\Publisher\obj\Debug\netcoreapp2.0\Server.dll
+C:\Users\madsd\source\repos\Messages\Publisher\obj\Debug\netcoreapp2.0\Server.pdb

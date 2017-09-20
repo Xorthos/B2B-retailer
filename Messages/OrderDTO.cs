@@ -8,6 +8,8 @@ namespace BE
     {
         public Order order { get; set; }
 
-        public Guid QueueToken { get; set; }
+        public Guid CustomerToken { get; set; }
+
+        public Guid WarehouseToken { get; set; }
     }
 }

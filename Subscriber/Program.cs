@@ -17,43 +17,52 @@ namespace Subscriber
             Console.WriteLine("Enter warehouse country.");
             warehouse = dummy.getDummyWarehouses(Console.ReadLine());
 
-            using (var bus = RabbitHutch.CreateBus("host=localhost"))
+            using (var bus = RabbitHutch.CreateBus("host=localhost;persistentMessages=false"))
             {
-                bus.Subscribe<Order>("WarehouseRequest", HandleRequest);
+                bus.Subscribe<OrderDTO>("WarehouseRequest", HandleRequest);
 
                 Console.WriteLine("Listening for messages. Hit <return> to quit.");
+
                 Console.ReadLine();
             }
         }
 
-        static void HandleRequest(Order order)
+        static void HandleRequest(OrderDTO orderDTO)
         {
-            int time;
-            int price;
-            bool available = false;
-            foreach (Product prod in warehouse.Products)
+
+
+            Warehouse currentWH = warehouse;
+
+            Console.WriteLine("Got message from server!");
+            WarehouseResponse response = new WarehouseResponse();
+            foreach (Product prod in currentWH.Products)
             {
-                if(prod.ProdID == order.ProdID)
+                Console.WriteLine("1");
+                if (prod.ProdID == orderDTO.order.ProdID)
                 {
-                    if (order.country.Equals(warehouse.Country))
+                    Console.WriteLine("2");
+                    Console.WriteLine(orderDTO.order.country);
+                    Console.WriteLine(currentWH.Country);
+                    if (orderDTO.order.country.Equals(currentWH.Country))
                     {
-                        time = 2;
-                        price = 5;
-                    } else
-                    {
-                        time = 10;
-                        price = 10;
+                        Console.WriteLine("3");
+                        response.DeliveryTime = 2;
+                        response.ShippingPrice = 5;
                     }
-                    available = true;
+                    else
+                    {
+                        Console.WriteLine("4");
+                        response.DeliveryTime = 10;
+                        response.ShippingPrice = 10;
+                    }
+                    response.Stock = 1;
                 }
             }
-
-            using (var bus = RabbitHutch.CreateBus("host=localhost"))
+            Console.WriteLine("I GET HERE!");
+            using (var bus = RabbitHutch.CreateBus("host=localhost;persistentMessages=false"))
             {
-                bus.Subscribe<Order>("WarehouseRequest", HandleRequest);
-
-                Console.WriteLine("Listening for messages. Hit <return> to quit.");
-                Console.ReadLine();
+                bus.Publish<WarehouseResponse>(response, orderDTO.WarehouseToken.ToString());
+                Console.WriteLine("Response sent to the server");
             }
 
 
