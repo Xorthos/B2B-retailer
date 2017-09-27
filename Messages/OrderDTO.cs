@@ -12,4 +12,9 @@ namespace BE
 
         public Guid WarehouseToken { get; set; }
     }
+
+    public class OrderDTOToWarehouse : OrderDTO
+    {
+
+    }
 }
