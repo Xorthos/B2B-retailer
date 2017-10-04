@@ -9,15 +9,14 @@ namespace Server
     class Program
     {
         static List<Guid> queues = new List<Guid>();
+        static MessageTranslator mt = new MessageTranslator();
         private static int timeoutInterval = 5000;
 
         static void Main(string[] args)
         {
             using (var bus = RabbitHutch.CreateBus("host=localhost;persistentMessages=false"))
             {
-                
-                    bus.RespondAsync<OrderDTO, CustomerResponse>(request => HandleOrder(request));
-                
+                bus.RespondAsync<OrderDTO, CustomerResponse>(request => HandleOrder(request));
 
                 Console.ReadLine();
 
@@ -26,33 +25,25 @@ namespace Server
 
         static async Task<CustomerResponse> HandleOrder(OrderDTO orderDTO)
         {
-            
+
             List<CustomerResponse> warehouseResponses = new List<CustomerResponse>();
 
             Console.WriteLine("Got order!!!!");
 
-                using (var bus = RabbitHutch.CreateBus("host=localhost;persistentMessages=false"))
+            using (var bus = RabbitHutch.CreateBus("host=localhost;persistentMessages=false"))
+            {
+                orderDTO.WarehouseToken = Guid.NewGuid();
+
+                bus.Publish<OrderDTO>(orderDTO);
+
+                Console.WriteLine("Sent for warehouses, waiting for response.");
+
+
+                bus.Subscribe<WarehouseResponse>(orderDTO.WarehouseToken.ToString(), message =>
                 {
-                    orderDTO.WarehouseToken = Guid.NewGuid();
-
-                    bus.Publish<OrderDTO>(orderDTO);
-
-                    Console.WriteLine("Sent for warehouses, waiting for response.");
-
-
-                    bus.Subscribe<WarehouseResponse>(orderDTO.WarehouseToken.ToString(), message =>
-                    {
-
-                        CustomerResponse custResponse = new CustomerResponse();
-                        if (message.Stock >= 1)
-                        {
-                            custResponse.Available = true;
-                            custResponse.DeliveryTime = message.DeliveryTime;
-                            custResponse.ShippingPrice = message.ShippingPrice;
-                        }
-                        warehouseResponses.Add(custResponse);
-
-                    });
+                    var custResponse = mt.translate(message);
+                    warehouseResponses.Add(custResponse);
+                });
 
                 await Task.Delay(timeoutInterval);
             }
@@ -61,7 +52,7 @@ namespace Server
 
             foreach (CustomerResponse res in warehouseResponses)
             {
-                if(res.DeliveryTime < bestResponse.DeliveryTime)
+                if (res.DeliveryTime < bestResponse.DeliveryTime)
                 {
                     bestResponse = res;
                 }
@@ -69,7 +60,7 @@ namespace Server
 
             Console.WriteLine("Sent response to customer.");
             return bestResponse;
-            
+
         }
 
         public static void writeSomething(object message)
