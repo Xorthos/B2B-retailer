@@ -1,0 +1,13 @@
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\bin\Debug\netcoreapp1.1\Customer.deps.json
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\bin\Debug\netcoreapp1.1\Customer.runtimeconfig.json
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\bin\Debug\netcoreapp1.1\Customer.runtimeconfig.dev.json
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\obj\Debug\netcoreapp1.1\Customer.csprojResolveAssemblyReference.cache
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\obj\Debug\netcoreapp1.1\Customer.AssemblyInfo.cs
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\bin\Debug\netcoreapp1.1\Customer.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\bin\Debug\netcoreapp1.1\Customer.pdb
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\bin\Debug\netcoreapp1.1\BE.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\bin\Debug\netcoreapp1.1\MessagingGateway.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\bin\Debug\netcoreapp1.1\BE.pdb
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\bin\Debug\netcoreapp1.1\MessagingGateway.pdb
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\obj\Debug\netcoreapp1.1\Customer.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Customer\obj\Debug\netcoreapp1.1\Customer.pdb

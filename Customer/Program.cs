@@ -1,6 +1,6 @@
 ﻿using BE;
 using EasyNetQ;
-using MessageGateway;
+using MessagingGateway;
 using System;
 using System.Collections.Generic;
 
@@ -8,9 +8,8 @@ namespace Customer
 {
     class Program
     {
-
         static List<Guid> queues = new List<Guid>();
-        static SynchronousMessageGateway gateway = new SynchronousMessageGateway();
+        static SynchronousMessagingGateway gateway = new SynchronousMessagingGateway();
 
         static void Main(string[] args)
         {

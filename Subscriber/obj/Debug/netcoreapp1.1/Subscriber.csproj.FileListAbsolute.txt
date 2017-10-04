@@ -1,0 +1,11 @@
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Subscriber\bin\Debug\netcoreapp1.1\Subscriber.deps.json
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Subscriber\bin\Debug\netcoreapp1.1\Subscriber.runtimeconfig.json
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Subscriber\bin\Debug\netcoreapp1.1\Subscriber.runtimeconfig.dev.json
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Subscriber\bin\Debug\netcoreapp1.1\Subscriber.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Subscriber\bin\Debug\netcoreapp1.1\Subscriber.pdb
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Subscriber\bin\Debug\netcoreapp1.1\BE.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Subscriber\bin\Debug\netcoreapp1.1\BE.pdb
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Subscriber\obj\Debug\netcoreapp1.1\Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Subscriber\obj\Debug\netcoreapp1.1\Subscriber.AssemblyInfo.cs
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Subscriber\obj\Debug\netcoreapp1.1\Subscriber.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Subscriber\obj\Debug\netcoreapp1.1\Subscriber.pdb
