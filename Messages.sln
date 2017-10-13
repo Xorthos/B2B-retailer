@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BE", "Messages\BE.csproj", "{4D8A0CE8-613D-4EBE-9127-FFE329ACACCD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Publisher\Server.csproj", "{8F8C1045-4C62-40A4-90CD-7E5A9F38862D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Retailer", "Publisher\Retailer.csproj", "{8F8C1045-4C62-40A4-90CD-7E5A9F38862D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber", "Subscriber\Subscriber.csproj", "{DA428DDC-B274-482C-8A4A-63B5A43DCC90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse", "Subscriber\Warehouse.csproj", "{DA428DDC-B274-482C-8A4A-63B5A43DCC90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer", "Customer\Customer.csproj", "{6158E2E0-D659-4C59-9C42-09E049643DEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer", "Customer\Customer.csproj", "{6158E2E0-D659-4C59-9C42-09E049643DEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

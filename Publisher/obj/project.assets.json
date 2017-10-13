@@ -7677,9 +7677,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\Publisher\\Server.csproj",
-      "projectName": "Server",
-      "projectPath": "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\Publisher\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\Publisher\\Retailer.csproj",
+      "projectName": "Retailer",
+      "projectPath": "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\Publisher\\Retailer.csproj",
       "outputPath": "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\Publisher\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [

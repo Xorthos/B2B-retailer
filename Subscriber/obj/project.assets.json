@@ -7677,9 +7677,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\Subscriber\\Subscriber.csproj",
-      "projectName": "Subscriber",
-      "projectPath": "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\Subscriber\\Subscriber.csproj",
+      "projectUniqueName": "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\Subscriber\\Warehouse.csproj",
+      "projectName": "Warehouse",
+      "projectPath": "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\Subscriber\\Warehouse.csproj",
       "outputPath": "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\Subscriber\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
