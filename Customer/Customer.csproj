@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Messages\BE.csproj" />
+    <ProjectReference Include="..\MessagingGateway\MessagingGateway.csproj" />
   </ItemGroup>
 
 </Project>

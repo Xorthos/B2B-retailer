@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse", "Subscriber\War
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer", "Customer\Customer.csproj", "{6158E2E0-D659-4C59-9C42-09E049643DEE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagingGateway", "MessagingGateway\MessagingGateway.csproj", "{8DC248D8-A32D-476F-8AEC-DB412C847B9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6158E2E0-D659-4C59-9C42-09E049643DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6158E2E0-D659-4C59-9C42-09E049643DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6158E2E0-D659-4C59-9C42-09E049643DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC248D8-A32D-476F-8AEC-DB412C847B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC248D8-A32D-476F-8AEC-DB412C847B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC248D8-A32D-476F-8AEC-DB412C847B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC248D8-A32D-476F-8AEC-DB412C847B9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

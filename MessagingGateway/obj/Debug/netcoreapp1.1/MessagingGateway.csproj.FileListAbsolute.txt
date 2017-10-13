@@ -1,0 +1,17 @@
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\MessagingGateway\bin\Debug\netcoreapp1.1\MessagingGateway.deps.json
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\MessagingGateway\bin\Debug\netcoreapp1.1\MessagingGateway.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\MessagingGateway\obj\Debug\netcoreapp1.1\MessagingGateway.AssemblyInfo.cs
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\MessagingGateway\bin\Debug\netcoreapp1.1\MessagingGateway.pdb
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\MessagingGateway\bin\Debug\netcoreapp1.1\BE.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\MessagingGateway\bin\Debug\netcoreapp1.1\BE.pdb
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\MessagingGateway\obj\Debug\netcoreapp1.1\MessagingGateway.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\MessagingGateway\obj\Debug\netcoreapp1.1\MessagingGateway.pdb
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\MessagingGateway\bin\Debug\netcoreapp1.1\MessagingGateway.deps.json
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\MessagingGateway\bin\Debug\netcoreapp1.1\MessagingGateway.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\MessagingGateway\bin\Debug\netcoreapp1.1\MessagingGateway.pdb
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\MessagingGateway\bin\Debug\netcoreapp1.1\BE.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\MessagingGateway\bin\Debug\netcoreapp1.1\BE.pdb
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\MessagingGateway\obj\Debug\netcoreapp1.1\MessagingGateway.csprojResolveAssemblyReference.cache
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\MessagingGateway\obj\Debug\netcoreapp1.1\MessagingGateway.AssemblyInfo.cs
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\MessagingGateway\obj\Debug\netcoreapp1.1\MessagingGateway.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\MessagingGateway\obj\Debug\netcoreapp1.1\MessagingGateway.pdb

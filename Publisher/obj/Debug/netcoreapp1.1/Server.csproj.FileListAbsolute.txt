@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\Publisher\bin\Debug\netcoreapp1.1\Server.deps.json
 C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\Publisher\bin\Debug\netcoreapp1.1\Server.runtimeconfig.json
 C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\Publisher\bin\Debug\netcoreapp1.1\Server.runtimeconfig.dev.json
@@ -9,3 +10,16 @@ C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-reta
 C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\Publisher\obj\Debug\netcoreapp1.1\Server.AssemblyInfo.cs
 C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\Publisher\obj\Debug\netcoreapp1.1\Server.dll
 C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\B2B retailer\B2B-retailer\Publisher\obj\Debug\netcoreapp1.1\Server.pdb
+=======
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Publisher\bin\Debug\netcoreapp1.1\Server.deps.json
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Publisher\bin\Debug\netcoreapp1.1\Server.runtimeconfig.json
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Publisher\bin\Debug\netcoreapp1.1\Server.runtimeconfig.dev.json
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Publisher\bin\Debug\netcoreapp1.1\Server.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Publisher\bin\Debug\netcoreapp1.1\Server.pdb
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Publisher\bin\Debug\netcoreapp1.1\BE.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Publisher\bin\Debug\netcoreapp1.1\BE.pdb
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Publisher\obj\Debug\netcoreapp1.1\Server.csprojResolveAssemblyReference.cache
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Publisher\obj\Debug\netcoreapp1.1\Server.AssemblyInfo.cs
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Publisher\obj\Debug\netcoreapp1.1\Server.dll
+C:\Users\JonathansPC\Documents\Visual Studio 2017\Projects\Miniproject4\B2B-retailer\Publisher\obj\Debug\netcoreapp1.1\Server.pdb
+>>>>>>> 5a96b8dca5dc3ee06526cf34eab82c8aad0b0d2b

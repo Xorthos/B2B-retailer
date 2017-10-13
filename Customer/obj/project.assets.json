@@ -2520,6 +2520,15 @@
         "dependencies": {
           "Microsoft.NETCore.App": "1.1.2"
         }
+      },
+      "MessagingGateway/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "BE": "1.0.0",
+          "EasyNetQ": "2.1.0",
+          "Microsoft.NETCore.App": "1.1.2"
+        }
       }
     }
   },
@@ -7662,12 +7671,18 @@
       "type": "project",
       "path": "../Messages/BE.csproj",
       "msbuildProject": "../Messages/BE.csproj"
+    },
+    "MessagingGateway/1.0.0": {
+      "type": "project",
+      "path": "../MessagingGateway/MessagingGateway.csproj",
+      "msbuildProject": "../MessagingGateway/MessagingGateway.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
       "BE >= 1.0.0",
       "EasyNetQ >= 2.1.0",
+      "MessagingGateway >= 1.0.0",
       "Microsoft.NETCore.App >= 1.1.2"
     ]
   },
@@ -7690,6 +7705,9 @@
           "projectReferences": {
             "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\Messages\\BE.csproj": {
               "projectPath": "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\Messages\\BE.csproj"
+            },
+            "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\MessagingGateway\\MessagingGateway.csproj": {
+              "projectPath": "C:\\Users\\JonathansPC\\Documents\\Visual Studio 2017\\Projects\\B2B retailer\\B2B-retailer\\MessagingGateway\\MessagingGateway.csproj"
             }
           }
         }

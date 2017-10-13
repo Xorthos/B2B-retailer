@@ -2,68 +2,65 @@
 using EasyNetQ;
 using BE;
 using System.Collections.Generic;
-using System.Threading;
+using System.Threading.Tasks;
 
 namespace Server
 {
     class Program
     {
         static List<Guid> queues = new List<Guid>();
+        static MessageTranslator mt = new MessageTranslator();
         private static int timeoutInterval = 5000;
 
         static void Main(string[] args)
         {
             using (var bus = RabbitHutch.CreateBus("host=localhost;persistentMessages=false"))
             {
-                
-                    bus.Respond<OrderDTO, CustomerResponse>(request => HandleOrder(request));
-                
+                bus.RespondAsync<OrderDTO, CustomerResponse>(request => HandleOrder(request));
 
                 Console.ReadLine();
 
             }
         }
 
-        static CustomerResponse HandleOrder(OrderDTO orderDTO)
+        static async Task<CustomerResponse> HandleOrder(OrderDTO orderDTO)
         {
 
-            CustomerResponse response = new CustomerResponse();
-            response.ShippingPrice = 10000;
+            List<CustomerResponse> warehouseResponses = new List<CustomerResponse>();
 
-                Console.WriteLine("Got order!!!!");
+            Console.WriteLine("Got order!!!!");
 
-                using (var bus = RabbitHutch.CreateBus("host=localhost;persistentMessages=false"))
+            using (var bus = RabbitHutch.CreateBus("host=localhost;persistentMessages=false"))
+            {
+                orderDTO.WarehouseToken = Guid.NewGuid();
+
+                bus.Publish<OrderDTO>(orderDTO);
+
+                Console.WriteLine("Sent for warehouses, waiting for response.");
+
+
+                bus.Subscribe<WarehouseResponse>(orderDTO.WarehouseToken.ToString(), message =>
                 {
-                    orderDTO.WarehouseToken = Guid.NewGuid();
+                    var custResponse = mt.translate(message);
+                    warehouseResponses.Add(custResponse);
+                });
 
-                    bus.Publish<OrderDTO>(orderDTO, "WarehouseRequest");
+                await Task.Delay(timeoutInterval);
+            }
 
-                    Console.WriteLine("Sent for warehouses, waiting for response.");
-                    
+            CustomerResponse bestResponse = warehouseResponses[0];
 
-
-                    bus.Subscribe<WarehouseResponse>(orderDTO.WarehouseToken.ToString(), message =>
-                    {
-                        CustomerResponse custResponse = new CustomerResponse();
-                        if (message.Stock >= 1)
-                        {
-                            custResponse.Available = true;
-                            custResponse.DeliveryTime = message.DeliveryTime;
-                            custResponse.ShippingPrice = message.ShippingPrice;
-                        }
-                        response = custResponse;
-                        Console.WriteLine(response.Available);
-                        Console.WriteLine(response.DeliveryTime);
-                        Console.WriteLine(response.ShippingPrice);
-
-                    });
-
-                Timer timer = new Timer(writeSomething, null, timeoutInterval, Timeout.Infinite);
+            foreach (CustomerResponse res in warehouseResponses)
+            {
+                if (res.DeliveryTime < bestResponse.DeliveryTime)
+                {
+                    bestResponse = res;
+                }
             }
 
             Console.WriteLine("Sent response to customer.");
-            return response;
-            
+            return bestResponse;
+
         }
 
         public static void writeSomething(object message)

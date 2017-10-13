@@ -19,7 +19,7 @@ namespace Subscriber
 
             using (var bus = RabbitHutch.CreateBus("host=localhost;persistentMessages=false"))
             {
-                bus.Subscribe<OrderDTO>("WarehouseRequest", HandleRequest);
+                bus.Subscribe<OrderDTO>(warehouse.Country, HandleRequest);
 
                 Console.WriteLine("Listening for messages. Hit <return> to quit.");
 
@@ -61,6 +61,7 @@ namespace Subscriber
             Console.WriteLine("I GET HERE!");
             using (var bus = RabbitHutch.CreateBus("host=localhost;persistentMessages=false"))
             {
+                Console.WriteLine(response.DeliveryTime);
                 bus.Publish<WarehouseResponse>(response, orderDTO.WarehouseToken.ToString());
                 Console.WriteLine("Response sent to the server");
             }

@@ -1,9 +1,0 @@
-C:\Users\madsd\source\repos\Messages\Messages\bin\Debug\netcoreapp2.0\BE.deps.json
-C:\Users\madsd\source\repos\Messages\Messages\bin\Debug\netcoreapp2.0\BE.dll
-C:\Users\madsd\source\repos\Messages\Messages\bin\Debug\netcoreapp2.0\BE.pdb
-C:\Users\madsd\source\repos\Messages\Messages\obj\Debug\netcoreapp2.0\BE.csprojResolveAssemblyReference.cache
-C:\Users\madsd\source\repos\Messages\Messages\obj\Debug\netcoreapp2.0\BE.csproj.CoreCompileInputs.cache
-C:\Users\madsd\source\repos\Messages\Messages\obj\Debug\netcoreapp2.0\BE.AssemblyInfoInputs.cache
-C:\Users\madsd\source\repos\Messages\Messages\obj\Debug\netcoreapp2.0\BE.AssemblyInfo.cs
-C:\Users\madsd\source\repos\Messages\Messages\obj\Debug\netcoreapp2.0\BE.dll
-C:\Users\madsd\source\repos\Messages\Messages\obj\Debug\netcoreapp2.0\BE.pdb
